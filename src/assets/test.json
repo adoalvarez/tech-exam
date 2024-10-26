@@ -1,0 +1,64 @@
+[
+    {
+        "type": "PROP_CHANGE",
+        "node": {
+            "type": "div",
+            "props": {
+                "id": "root",
+                "className": "container"
+            },
+            "children": [
+                {
+                    "type": "h1",
+                    "props": {
+                        "style": "color: red"
+                    },
+                    "children": [
+                        "Hello"
+                    ]
+                },
+                {
+                    "type": "p",
+                    "props": {},
+                    "children": [
+                        "This is a paragraph"
+                    ]
+                }
+            ]
+        },
+        "propChanges": {
+            "className": {
+                "oldValue": "container",
+                "newValue": "container-fluid"
+            }
+        }
+    },
+    {
+        "type": "PROP_CHANGE",
+        "node": {
+            "type": "h1",
+            "props": {
+                "style": "color: red"
+            },
+            "children": [
+                "Hello"
+            ]
+        },
+        "propChanges": {
+            "style": {
+                "oldValue": "color: red",
+                "newValue": "color: blue"
+            }
+        }
+    },
+    {
+        "type": "ADD",
+        "newNode": {
+            "type": "span",
+            "props": {},
+            "children": [
+                "New element"
+            ]
+        }
+    }
+]
